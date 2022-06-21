@@ -1,0 +1,3 @@
+CREATE TABLE PowerBI.dbo.ctwer4 (
+R4EMPR char(1) NOT NULL,R4SUCU char(2) NOT NULL,R4NIVT numeric(1,0) NOT NULL,R4NIVC numeric(5,0) NOT NULL,R4NCTW numeric(7,0) NOT NULL,R4RAMA numeric(2,0) NOT NULL,R4ARSE numeric(2,0) NOT NULL,R4POCO numeric(4,0) NOT NULL,R4XCOB numeric(3,0) ,R4NIVE numeric(1,0) ,R4CCBP numeric(3,0) ,R4RECA numeric(5,2) ,R4BONI numeric(5,2) ,R4MA01 char(1) ,R4MA02 char(1) ,R4MA03 char(1) ,R4MA04 char(1) ,R4MA05 char(1) )
+ALTER TABLE PowerBI.dbo.ctwer4 ADD PRIMARY KEY(R4EMPR,R4SUCU,R4NIVT,R4NIVC,R4NCTW,R4RAMA,R4POCO,R4ARSE)
